@@ -2,5 +2,19 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+remappings = ["chainlink-brownie-contracts=lib/chainlink-brownie-contracts/"
+    , "openzeppelin-contracts/contracts=lib/openzeppelin-contracts/contracts"]
+
+# [dependencies]
+# openzeppelin-contracts = { git = "https://github.com/OpenZeppelin/openzeppelin-contracts", rev = "0a25c1940ca220686588c4af3ec526f725fe2582" }
+
+#[dependencies]
+#openzeppelin-contracts = { git = "https://github.com/OpenZeppelin/openzeppelin-contracts", rev = "0a25c1940ca220686588c4af3ec526f725fe2582" }
+
+
+# [profile.default.dependencies]
+# openzeppelin-contracts = { git = "https://github.com/OpenZeppelin/openzeppelin-contracts", rev = "0a25c1940ca220686588c4af3ec526f725fe2582" }
+
+
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
